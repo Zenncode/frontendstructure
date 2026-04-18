@@ -1,7 +1,7 @@
 {
   "name": "zenncode", 
-  "version": "1.1.0",
-  "description": "A frontend scaffolding CLI that initializes a clean and scalable project structure, auto-detects common frameworks like React, Vite, and Next.js, and can optionally generate Tailwind CSS, TypeScript, and router-ready starter files in one command",
+  "version": "1.2.0",
+  "description": "A frontend scaffolding CLI with templates for React Router, Expo, Vue, Nuxt, Next.js, Angular, React, and Vite, including optional TypeScript, Tailwind, router starter files, and guided setup",
   "type": "module",
   "bin": {
     "zenncode": "./bin/index.js"

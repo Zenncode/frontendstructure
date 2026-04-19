@@ -6,6 +6,11 @@
   "bin": {
     "zenncode": "./bin/index.js"
   },
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
   "keywords": ["cli", "frontend", "template"],
   "author": "ZennCode",
   "license": "MIT"

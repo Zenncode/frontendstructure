@@ -7,18 +7,100 @@ Generated projects also include project-root folders:
 - `docs/` — product notes, architecture, and onboarding
 - `tests/` — unit, integration, and end-to-end tests
 
-## Frontend templates
+## Framework install commands
 
-- `react-router`
-- `expo`
-- `vue`
-- `nuxt`
-- `next`
-- `angular`
-- `react`
-- `vite`
+Create the app with the official CLI first, `cd` into it, then run `zenncode init`.
 
-## Install
+### React
+
+```bash
+npm create vite@latest my-app -- --template react
+cd my-app
+npm install
+npx zenncode init --framework react
+```
+
+TypeScript:
+
+```bash
+npm create vite@latest my-app -- --template react-ts
+cd my-app
+npm install
+npx zenncode init --framework react --ts
+```
+
+### React Router
+
+```bash
+npx create-react-router@latest my-app
+cd my-app
+npm install
+npx zenncode init --framework react-router --ts
+```
+
+### React Expo
+
+```bash
+npx create-expo-app@latest my-app
+cd my-app
+npm install
+npx zenncode init --framework expo --ts
+```
+
+### Vue
+
+```bash
+npm create vue@latest my-app
+cd my-app
+npm install
+npx zenncode init --framework vue
+```
+
+### Nuxt
+
+```bash
+npx nuxi@latest init my-app
+cd my-app
+npm install
+npx zenncode init --framework nuxt
+```
+
+### Next.js
+
+```bash
+npx create-next-app@latest my-app
+cd my-app
+npx zenncode init --framework next --ts --yes
+```
+
+### Angular
+
+```bash
+npx @angular/cli@latest new my-app
+cd my-app
+npm install
+npx zenncode init --framework angular --install
+```
+
+### Vite
+
+```bash
+npm create vite@latest my-app
+cd my-app
+npm install
+npx zenncode init --framework vite
+```
+
+TypeScript:
+
+```bash
+npm create vite@latest my-app -- --template react-ts
+cd my-app
+npm install
+npx zenncode init --framework vite --ts
+```
+
+## Install zenncode
 
 ```bash
 npm i zenncode
@@ -30,7 +112,7 @@ npm i zenncode
 npx zenncode init
 ```
 
-## Usage
+## zenncode init
 
 ```bash
 zenncode init
@@ -43,7 +125,7 @@ zenncode init --framework angular --install
 zenncode init --interactive
 ```
 
-Interactive mode now uses a radio-style template selector with green highlight for the active option. Use arrow keys, then press Enter.
+Interactive mode uses a radio-style template selector with green highlight for the active option. Use arrow keys, then press Enter.
 
 ## Available options
 

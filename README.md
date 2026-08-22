@@ -2,6 +2,11 @@
 
 `zenncode` is a frontend scaffolding CLI that creates a clean project structure with optional starter files and smart defaults.
 
+Generated projects also include project-root folders:
+
+- `docs/` — product notes, architecture, and onboarding
+- `tests/` — unit, integration, and end-to-end tests
+
 ## Frontend templates
 
 - `react-router`

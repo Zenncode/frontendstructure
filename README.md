@@ -38,6 +38,19 @@ npm install
 npx zenncode init --framework react-router --ts
 ```
 
+### React Router v7
+
+Library-mode starter using the modern `createBrowserRouter` and `RouterProvider` APIs:
+
+```bash
+npx create-react-router@latest my-app
+cd my-app
+npm install
+npx zenncode init --framework react-router-v7 --ts
+```
+
+Projects with `react-router` 7.x in `package.json` are auto-detected as React Router v7.
+
 ### React Expo
 
 ```bash
@@ -117,6 +130,7 @@ npx zenncode init
 ```bash
 zenncode init
 zenncode init --framework react-router --ts
+zenncode init --framework react-router-v7 --ts
 zenncode init --framework expo --ts
 zenncode init --framework vue --router
 zenncode init --framework nuxt
@@ -129,8 +143,8 @@ Interactive mode uses a radio-style template selector with green highlight for t
 
 ## Available options
 
-- `--framework <react-router|expo|vue|nuxt|next|angular|react|vite>`
-- `--react-router`, `--expo`, `--vue`, `--nuxt`, `--next`, `--angular`, `--react`, `--vite`
+- `--framework <react-router|react-router-v7|expo|vue|nuxt|next|angular|react|vite>`
+- `--react-router`, `--react-router-v7`, `--expo`, `--vue`, `--nuxt`, `--next`, `--angular`, `--react`, `--vite`
 - `--tailwind` / `--no-tailwind`
 - `--ts` / `--no-ts`
 - `--router` / `--no-router`
